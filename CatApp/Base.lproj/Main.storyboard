@@ -18,8 +18,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="euE-pM-vMe">
                                 <rect key="frame" x="16" y="104" width="382" height="627"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ht-yA-Uug">
-                                <rect key="frame" x="165" y="747" width="85" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ht-yA-Uug">
+                                <rect key="frame" x="164.5" y="747" width="85" height="30"/>
                                 <state key="normal" title="Buscar Gato"/>
                                 <connections>
                                     <action selector="searchCat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPW-Gh-wFz"/>
@@ -31,6 +31,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="euE-pM-vMe" secondAttribute="trailing" constant="16" id="LBB-1F-dSi"/>
                             <constraint firstItem="euE-pM-vMe" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.7" id="T9S-0G-ApK"/>
                             <constraint firstItem="euE-pM-vMe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="TXM-Z2-Wtx"/>
+                            <constraint firstItem="2Ht-yA-Uug" firstAttribute="centerX" secondItem="euE-pM-vMe" secondAttribute="centerX" id="d9m-8y-jFu"/>
                             <constraint firstItem="euE-pM-vMe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="fDr-iJ-RRr"/>
                             <constraint firstItem="2Ht-yA-Uug" firstAttribute="top" secondItem="euE-pM-vMe" secondAttribute="bottom" constant="16" id="glA-KJ-RdZ"/>
                         </constraints>

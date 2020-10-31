@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		922420BB254CF1A100219F75 /* RandomCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922420BA254CF1A100219F75 /* RandomCatViewController.swift */; };
+		922420BE254DB62000219F75 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922420BD254DB62000219F75 /* Cat.swift */; };
 		92253C22254CE800004A2FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92253C21254CE800004A2FB4 /* AppDelegate.swift */; };
 		92253C24254CE800004A2FB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92253C23254CE800004A2FB4 /* SceneDelegate.swift */; };
 		92253C29254CE800004A2FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92253C27254CE800004A2FB4 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		922420BA254CF1A100219F75 /* RandomCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCatViewController.swift; sourceTree = "<group>"; };
+		922420BD254DB62000219F75 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		92253C1E254CE800004A2FB4 /* CatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92253C21254CE800004A2FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92253C23254CE800004A2FB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922420BC254DB4C600219F75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				922420BD254DB62000219F75 /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		92253C15254CE800004A2FB4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		92253C20254CE800004A2FB4 /* CatApp */ = {
 			isa = PBXGroup;
 			children = (
+				922420BC254DB4C600219F75 /* Model */,
 				92253C21254CE800004A2FB4 /* AppDelegate.swift */,
 				92253C23254CE800004A2FB4 /* SceneDelegate.swift */,
 				92253C27254CE800004A2FB4 /* Main.storyboard */,
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922420BE254DB62000219F75 /* Cat.swift in Sources */,
 				922420BB254CF1A100219F75 /* RandomCatViewController.swift in Sources */,
 				92253C22254CE800004A2FB4 /* AppDelegate.swift in Sources */,
 				92253C24254CE800004A2FB4 /* SceneDelegate.swift in Sources */,
