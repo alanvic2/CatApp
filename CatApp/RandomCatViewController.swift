@@ -10,13 +10,17 @@ import UIKit
 
 class RandomCatViewController: UIViewController {
 
+    @IBOutlet weak var CatImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func searchCat(_ sender: Any) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -14,14 +14,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="euE-pM-vMe">
+                                <rect key="frame" x="16" y="104" width="382" height="627"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ht-yA-Uug">
+                                <rect key="frame" x="165" y="747" width="85" height="30"/>
+                                <state key="normal" title="Buscar Gato"/>
+                                <connections>
+                                    <action selector="searchCat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPW-Gh-wFz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="euE-pM-vMe" secondAttribute="trailing" constant="16" id="LBB-1F-dSi"/>
+                            <constraint firstItem="euE-pM-vMe" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.7" id="T9S-0G-ApK"/>
+                            <constraint firstItem="euE-pM-vMe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="TXM-Z2-Wtx"/>
+                            <constraint firstItem="euE-pM-vMe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="fDr-iJ-RRr"/>
+                            <constraint firstItem="2Ht-yA-Uug" firstAttribute="top" secondItem="euE-pM-vMe" secondAttribute="bottom" constant="16" id="glA-KJ-RdZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="syA-Fx-pOf"/>
+                    <connections>
+                        <outlet property="CatImageView" destination="euE-pM-vMe" id="gAQ-S9-6Xw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2094" y="-106"/>
+            <point key="canvasLocation" x="2092.753623188406" y="-106.47321428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Rm8-DI-2U7">
@@ -29,6 +51,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gEv-RZ-wMI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="akg-PF-taz">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
